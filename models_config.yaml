@@ -1,0 +1,13 @@
+model_providers:
+  - provider_name: openai
+    api_format: openai
+    api_key_env_var: OPENAI_API_KEY
+    llm_model_ids:
+      - "gpt-4o"
+      - "gpt-4o-mini"
+      - "gpt-3.5-turbo"
+    embedding_model_ids:
+      - "text-embedding-3-small"
+      - "text-embedding-ada-002"
+    reranking_model_ids: []
+    default_headers: {}
