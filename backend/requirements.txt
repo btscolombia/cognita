@@ -66,3 +66,6 @@ crawl4ai==0.3.73
 
 ## Forzar version moderna de playwright para arreglar error de libicu66
 playwright>=1.46.0
+
+setuptools<70.0.0
+
