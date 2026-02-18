@@ -33,6 +33,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 RUN python3 -m pip install -U pip setuptools wheel uv && \
     python3 -m uv pip install --no-cache-dir -r /tmp/requirements.txt --index-strategy unsafe-any-match && \
     playwright install chromium
+    
+RUN python3 -m pip install "setuptools<70.0.0"
+
 
 # Install VectorDB packages
 ARG ADD_VECTORDB=0
