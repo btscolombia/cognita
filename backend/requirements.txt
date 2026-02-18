@@ -63,3 +63,6 @@ pre-commit==3.7.0
 
 ### Web Crawling
 crawl4ai==0.3.73
+
+## Forzar version moderna de playwright para arreglar error de libicu66
+playwright>=1.46.0
